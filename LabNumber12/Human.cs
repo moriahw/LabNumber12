@@ -10,7 +10,8 @@ namespace LabNumber12
     {
         public override string generateRoshambo()
         {
-            string play = Console.ReadLine();
+            Console.WriteLine("Please enter Rock, Paper, or Scissors.");
+            string play = Console.ReadLine().ToLower();
             return play;
         }
 
